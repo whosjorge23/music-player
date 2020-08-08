@@ -1,7 +1,11 @@
+//Music: https://www.fesliyanstudios.com/royalty-free-music/downloads-c/peaceful-and-relaxing-music/22
+
 const image = document.querySelector('img')
 const title = document.getElementById('title')
 const artist = document.getElementById('artist')
 const music = document.querySelector('audio')
+const progressContainer = document.getElementById('progress-container')
+const progress = document.getElementById('progress')
 const previousButton = document.getElementById('prev')
 const playButton = document.getElementById('play')
 const nextButton = document.getElementById('next')
@@ -9,24 +13,24 @@ const nextButton = document.getElementById('next')
 //Music
 const songs = [
     {
-        name: 'jacinto-1',
-        displayName: 'Electric Chill Machine',
-        artist: 'Jacinto Design'
+        name: 'tranquility',
+        displayName: 'Tranquility',
+        artist: 'David Renda'
     },
     {
-        name: 'jacinto-2',
-        displayName: 'Seven Nation Army (Remix)',
-        artist: 'Jacinto Design'
+        name: 'quiet-time',
+        displayName: 'Quiet Time',
+        artist: 'Unknown'
     },
     {
-        name: 'jacinto-3',
-        displayName: 'Goodnight Disco Queen',
-        artist: 'Jacinto Design'
+        name: 'serenity',
+        displayName: 'Serenity',
+        artist: 'David Renda'
     },
     {
-        name: 'metric-1',
-        displayName: 'Front Row (Remix)',
-        artist: 'Metric/Jacinto Design'
+        name: 'deep-meditation',
+        displayName: 'Deep Meditation',
+        artist: 'Unknown'
     },
 ]
 
